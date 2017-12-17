@@ -10,6 +10,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 * [React-Test-Renderer](https://www.npmjs.com/package/react-test-renderer)
 
 ## Useful Links
+* [PropTypes](https://reactjs.org/docs/typechecking-with-proptypes.html)
 * [Snapshot Testing with Jest](https://facebook.github.io/jest/docs/en/snapshot-testing.html#content)
 * [Shallow Rendering with Enzyme](http://airbnb.io/enzyme/docs/api/shallow.html)
 * [Installation of Enzyme](http://airbnb.io/enzyme/docs/installation/)
