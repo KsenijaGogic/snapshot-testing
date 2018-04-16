@@ -33,5 +33,8 @@ export default [
     hex: '#8F9190',
     name: 'Neutral Grey',
     code: '17-4402'
+  },
+  {
+    hex: 'badHex'
   }
 ];

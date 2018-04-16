@@ -7,8 +7,8 @@ import colors from './colors';
 
 const App = () => {
   return (
-    <div>
-      <h2>Gallery of All Our Beautiful Colors</h2>
+    <div style={{ padding: '24px' }}>
+      <h2 style={{ marginTop: '0' }}>Gallery of All Our Beautiful Colors</h2>
       <div className='gallery'>
         <Grid>
           {
