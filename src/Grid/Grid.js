@@ -1,26 +1,22 @@
-import React from 'react';
-import PropTypes from 'prop-types';
+import React from "react";
+import PropTypes from "prop-types";
 
-import './Grid.css';
+import "./Grid.css";
 /**
  * The <Grid /> component will most often be the first
  * child of <Section /> and is responsible for holding
  * and properly templating all the <GridItem /> contents,
  * which it expects as children.
-*/
-const Grid = (props) => {
+ */
+const Grid = props => {
   const classes = [
-    'Grid',
-    props.middle ? 'Grid--middle' : '',
-    props.center ? 'Grid--center' : '',
-    props.stretch ? 'Grid--stretch' : ''
+    "Grid",
+    props.middle ? "Grid--middle" : "",
+    props.center ? "Grid--center" : "",
+    props.stretch ? "Grid--stretch" : ""
   ];
 
-  return (
-    <div className={(classes).join(' ')}>
-      {props.children}
-    </div>
-  );
+  return <div className={classes.join(" ")}>{props.children}</div>;
 };
 
 Grid.propTypes = {

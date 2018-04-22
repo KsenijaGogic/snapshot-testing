@@ -1,12 +1,9 @@
 // Here we'll write a function that will determine whether what's passed is a hexCode
-export const isHexCode = (hexCode) => {
-  let isMatch = false
-  const firstCharacter = hexCode.split("")[0]
-  const regexPattern = /^#(?:[0-9a-fA-F]{3}){1,2}$/
+// regex pattern: /^#(?:[0-9a-fA-F]{3}){1,2}$/
+export const isHexCode = hexCode => {
+  let isMatch = false;
 
-  if (firstCharacter === "#") {
-    isMatch = true
-  }
+  // Here we'll do some checking to make sure our passed string is actually a hex code
 
-  return isMatch
-}
+  return isMatch;
+};
